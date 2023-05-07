@@ -191,6 +191,7 @@ python main.py -O --image_config config/<config>.csv --workspace trial_image --i
 
 ## use test_freq to save .mp4 test videos at regular intervals
 --iters 10000 --test_freq 5000 # will run for 100 epochs (since length of `train_dataloader` is set to 100), and save .mp4 at epochs 50 and 100
+
 ### Debugging
 
 # Can save guidance images for debugging purposes. These get saved in trial_hamburger/guidance.
